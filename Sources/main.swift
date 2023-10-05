@@ -1,5 +1,4 @@
-import Foundation
-import Carbon
+import InputMethodKit
 
 // 現在のInputSourceを取得
 let currSrc = TISCopyCurrentKeyboardInputSource().takeUnretainedValue()
